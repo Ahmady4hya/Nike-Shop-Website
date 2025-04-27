@@ -1,0 +1,227 @@
+/* Media Queries */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {
+    .container {
+        width: 90%;
+    }
+    .form-label {
+        font-size: 14px;
+    }
+    .btn-success, .btn-primary {
+        font-size: 14px;
+        padding: 0.5rem 1rem;
+    }
+    .table {
+        font-size: 14px;
+    }
+    .navbar-brand img {
+        width: 40px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+    }
+    .header {
+        padding: 60px 0;
+    }
+    .header h1 {
+        font-size: 1.8rem;
+    }
+    .header p {
+        font-size: 1rem;
+    }
+    .latest-greatest .item,
+    .trending .product {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .footer-main .float-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container {
+        width: 85%;
+    }
+    .form-label {
+        font-size: 15px;
+    }
+    .btn-success, .btn-primary {
+        font-size: 15px;
+        padding: 0.75rem 1.25rem;
+    }
+    .table {
+        font-size: 15px;
+    }
+    .navbar-brand img {
+        width: 50px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+    }
+    .header {
+        padding: 80px 0;
+    }
+    .header h1 {
+        font-size: 2.2rem;
+    }
+    .header p {
+        font-size: 1.1rem;
+    }
+    .latest-greatest .item,
+    .trending .product {
+        width: 48%;
+        margin-right: 2%;
+        margin-bottom: 20px;
+    }
+    .latest-greatest .item:nth-child(2n),
+    .trending .product:nth-child(2n) {
+        margin-right: 0;
+    }
+    .footer-main .float-item {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        width: 80%;
+    }
+    .form-label {
+        font-size: 16px;
+    }
+    .btn-success, .btn-primary {
+        font-size: 16px;
+        padding: 0.75rem 1.5rem;
+    }
+    .table {
+        font-size: 16px;
+    }
+    .navbar-brand img {
+        width: 55px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 16px;
+    }
+    .header {
+        padding: 100px 0;
+    }
+    .header h1 {
+        font-size: 2.5rem;
+    }
+    .header p {
+        font-size: 1.2rem;
+    }
+    .latest-greatest .item,
+    .trending .product {
+        width: 30%;
+        margin-right: 3.33%;
+        margin-bottom: 20px;
+    }
+    .latest-greatest .item:nth-child(3n),
+    .trending .product:nth-child(3n) {
+        margin-right: 0;
+    }
+    .footer-main .float-item {
+        width: 30%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container {
+        width: 75%;
+    }
+    .form-label {
+        font-size: 17px;
+    }
+    .btn-success, .btn-primary {
+        font-size: 17px;
+        padding: 1rem 2rem;
+    }
+    .table {
+        font-size: 17px;
+    }
+    .navbar-brand img {
+        width: 60px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 17px;
+    }
+    .header {
+        padding: 120px 0;
+    }
+    .header h1 {
+        font-size: 2.8rem;
+    }
+    .header p {
+        font-size: 1.3rem;
+    }
+    .latest-greatest .item,
+    .trending .product {
+        width: 23%;
+        margin-right: 2%;
+        margin-bottom: 20px;
+    }
+    .latest-greatest .item:nth-child(4n),
+    .trending .product:nth-child(4n) {
+        margin-right: 0;
+    }
+    .footer-main .float-item {
+        width: 23%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Extra extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1200px) {
+    .container {
+        width: 70%;
+    }
+    .form-label {
+        font-size: 18px;
+    }
+    .btn-success, .btn-primary {
+        font-size: 18px;
+        padding: 1.25rem 2.5rem;
+    }
+    .table {
+        font-size: 18px;
+    }
+    .navbar-brand img {
+        width: 70px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 18px;
+    }
+    .header {
+        padding: 140px 0;
+    }
+    .header h1 {
+        font-size: 3rem;
+    }
+    .header p {
+        font-size: 1.4rem;
+    }
+    .latest-greatest .item,
+    .trending .product {
+        width: 22%;
+        margin-right: 2%;
+        margin-bottom: 20px;
+    }
+    .latest-greatest .item:nth-child(5n),
+    .trending .product:nth-child(5n) {
+        margin-right: 0;
+    }
+    .footer-main .float-item {
+        width: 22%;
+        margin-bottom: 20px;
+    }
+}
